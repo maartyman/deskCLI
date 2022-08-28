@@ -1,7 +1,8 @@
 # -- custom: --
-bin/
+
 log/
 .idea/
+bin/saveFiles/
 
 
 # -- predefied: --

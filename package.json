@@ -2,11 +2,19 @@
   "name": "deskcli",
   "version": "1.0.0",
   "description": "A CLI for linux to move the desks at the IGent tower.",
-  "main": "bin/main.js",
+  "main": "bin/deskCLI.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc && node bin/main.js"
+    "build": "npx tsc",
+    "start": "npx tsc && node bin/deskCLI.js"
   },
   "author": "Maarten Vandenbrande",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/inquirer": "^8.2.3",
+    "commander": "^9.4.0",
+    "inquirer": "^8.2.4",
+    "node-ble": "^1.7.0",
+    "tslog": "^3.3.4"
+  }
 }
